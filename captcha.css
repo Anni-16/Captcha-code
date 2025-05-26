@@ -1,0 +1,37 @@
+.submit__control {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.submit__generated {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+    width: 100px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.submit__error,
+.submit__error--empty {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#captchaInput {
+    margin-top: 8px;
+    width: 200px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Captcha - Code Of Two Additions Number</title>
+    <link rel="stylesheet" href="captcha.css" />
+  </head>
+  <body>
+    <form action="">
+      <!-- Here Your Form Data  -->
+
+      Content
+
+      <!-- Here Your Form Data -->
+
+      <!-- Capture code of adding two numbers -->
+
+      <label class="submit__control">
+        <p style="color: black; font-weight: 900; font-size: 18px">
+          CAPTCHA
+          <i
+            class="fa fa-refresh"
+            id="refreshCaptcha"
+            style="
+              cursor: pointer;
+              color: red;
+              font-size: 25px;
+              margin-left: 10px;
+            "
+          ></i>
+        </p>
+        <div id="form-same-line">
+          <div
+            class="form-stable"
+            style="width: 100%; display: flex; justify-content: flex-start"
+          >
+            <div class="submit__generated" id="captchaValue"></div>
+            <input
+              type="text"
+              id="captchaInput"
+              placeholder="Enter the result here"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <span class="submit__error">Incorrect CAPTCHA value</span>
+        <span class="submit__error--empty"
+          >Required field cannot be left blank</span
+        >
+      </label>
+      <br />
+      <!-- button  -->
+      <input
+        type="submit"
+        name="submit"
+        id="button"
+        value="Submit"
+        class="c-btn"
+        style="background-color: #333; color: white"
+      />
+    </form>
+
+    <script src="captcha.js"></script>
+  </body>
+</html>
